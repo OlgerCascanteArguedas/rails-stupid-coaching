@@ -1,0 +1,13 @@
+<div class="container mt-5">
+  <h1>Coach’s Answer</h1>
+
+  <div class="card p-3 mb-3">
+    <p><strong>You:</strong> <%= @question %></p>
+  </div>
+
+  <div class="card bg-light p-3 mb-3">
+    <p><strong>Coach:</strong> <%= @answer %></p>
+  </div>
+
+  <%= link_to "Ask a new question", ask_path, class: "btn btn-outline-primary" %>
+</div>
